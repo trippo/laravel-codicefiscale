@@ -19,4 +19,20 @@ class CodiceFiscaleValidationException extends \Exception
     public const MISSING_CITY_CODE = 6;
 
     public const NO_MATCH = 7;
+
+    public const EMPTY_BIRTHDATE = 8;
+
+    public const WRONG_FIRST_NAME = 9;
+
+    public const WRONG_LAST_NAME = 10;
+
+    public const WRONG_BIRTH_DAY = 11;
+
+    public const WRONG_BIRTH_MONTH = 12;
+
+    public const WRONG_BIRTH_YEAR = 13;
+
+    public const WRONG_BIRTH_PLACE = 14;
+
+    public const WRONG_GENDER = 15;
 }
